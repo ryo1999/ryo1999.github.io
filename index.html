@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="" content="">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="jump">
+        <ul class="list">
+            <li class="home">
+                <a id="home-link" href="#home">HOME</a>
+            </li>
+            <li class="about">
+                <a id="about-link" href="#about">About</a>
+            </li>
+            <li class="history">
+                <a id="history-link" href="#history">History</a>
+            </li>
+            <li class="skill">
+                <a id="skill-link" href="#skill">Skill</a>
+            </li>
+            <li class="product">
+                <a id="product-link" href="#product">Product</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="page-header">
+        <img id="home" src="img/header_image.jpg" alt="">
+        <h2 class="me">Ryo Otsuki</h2>
+    </div>
+
+    <div class="myimage-container">
+        <div class="myimage-img">
+            <img id="about" src="img/image.jpg" alt="">
+        </div>
+
+        <div class="myimage-text">
+            <h1 class="aboutme">About Me</h1>
+            <div class="myimage-text-container">
+                <div class="text-item">
+                    <p>名前</p>
+                    <p>出身</p>
+                    <p>学年<br>
+                    学部<br>
+                    学科<br>
+                    コース</p>
+                    <p>趣味</p>
+                </div>
+
+                <div class="text-ans">
+                    <p>大月 凌</p>
+                    <p>岡山県</p>
+                    <p>大学4年<br>
+                    理工学部<br>
+                    理工学科<br>
+                    情報系</p>
+                    <p>ゲーム<br>
+                        スポーツ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="history">
+        <h1 id="history">History</h1>
+        <p class="yohaku">経験スポーツ</p>
+        <div class="sports">
+            <div class="baseball">
+                <h2>野球</h2>
+                <img id="sport" src="img/baseball.png" alt=""><br><br>
+                <a id="open-baseball" title="open-baseball" onclick="clickButton1()">詳しく</a>
+                <a id="close-baseball" title="close-baseball" onclick="clickButton1()">折りたたむ</a>
+                <div id="detail-baseball">
+                    <p>野球歴は幼稚園から小学5年生までの7年間</p>
+                    <p>ポジションは投手（たまに内野手）</p>
+                </div>
+            </div>
+            <div class="soccer">
+                <h2>サッカー</h2>
+                <img id="sport" src="img/soccer.png" alt=""><br><br>
+                <a id="open-soccer" title="open-soccer" onclick="clickButton2()">詳しく</a>
+                <a id="close-soccer" title="close-soccer" onclick="clickButton2()">折りたたむ</a>
+                <div id="detail-soccer">
+                    <p>サッカー歴は小学6年生から高校3年生までの7年間</p>
+                    <p>ポジションはMF, FW</p>
+                </div>
+            </div>
+            <div class="badminton">
+                <h2>バドミントン</h2>
+                <img id="sport" src="img/badminton.jpg" alt=""><br><br>
+                <a id="open-badminton" title="open-badminton" onclick="clickButton3()">詳しく</a>
+                <a id="close-badminton" title="close-badminton" onclick="clickButton3()">折りたたむ</a>
+                <div id="detail-badminton">
+                    <p>バドミントン歴は大学に入ってから1年間</p>
+                    <p>初心者</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills">
+        <h1 id="skill">Skill</h1>
+        <p class="yohaku">扱ったことのある言語</p>
+        <div class="skill-item">
+            <div class="c">
+                <h2>C</h2>
+                <img id="c-gengo" src="img/c-gengo.jpg" alt="">
+            </div>
+            <div class="java">
+                <h2>Java</h2>
+                <img id="gengo"src="img/java.png" alt="">
+            </div>
+            <div class="python">
+                <h2>Python</h2>
+                <img id="gengo" src="img/python.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="product">
+            <h1 id="product">Product</h1>
+            <p class="yohaku">過去に作った作品</p>
+        </div>
+        <div class="game-product">
+            <div class="shooting">
+                <img id="shootingscreen" src="img/shootingscreen.png" alt="">
+                <p>C言語を用いてシューティングゲームを作成</p>
+            </div>
+            <div class="block">
+                <img id="blockscreen" src="img/blockscreen.png" alt="">
+                <p>Unityを用いて基本的なブロック崩しを作成</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="portfolio.js"></script>
+</body>
