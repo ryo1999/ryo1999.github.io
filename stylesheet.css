@@ -1,15 +1,10 @@
 a{
     text-decoration:none;
 }
-.page_header{
+/* .page_header{
     position:relative;
-}
-.me{
-    color:white;
-    position:absolute;
-    top:350px;
-    left:830px;
-}
+} */
+
 #home{
     width:100%;
 }
