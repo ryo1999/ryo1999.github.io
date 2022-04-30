@@ -1,0 +1,125 @@
+a{
+    text-decoration:none;
+}
+
+#home{
+    width:100%;
+}
+
+.jump{
+    width:100%;
+    background-color:rgba(0,0,0,0.1);
+    position:fixed;
+    top:0px;
+}
+ul{
+    list-style:none;
+}
+li{
+    padding-left:30px;
+}
+.list{
+    display:flex;
+    justify-content:right;
+    padding-right:50px;
+}
+
+.myimage-container{
+    display:flex;
+    padding:80px 200px 0px 200px;
+    justify-content: space-around;
+}
+
+.myimage-text-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.myimage-text{
+    padding-bottom:200px;
+}
+.myimage-img{
+    padding-top:80px;
+}
+
+#about {
+    width:300px;
+    height:400px;
+}
+.aboutme{
+    padding-top:100px;
+    padding-left:10px;
+}
+.text-ans{
+    padding-left:80px;
+}
+
+.history{
+    text-align: center;
+}
+.sports{
+    display:flex;
+    justify-content: space-around;
+    padding:0px 70px;
+}
+#sport{
+    width:200px;
+    height:200px;
+}
+.sports a{
+    color:blue;
+    cursor:pointer;
+}
+/* #open-baseball, #open-soccer, #open-badminton{
+    display:block;
+} */
+#detail-baseball, #detail-soccer, #detail-badminton{
+    visibility:hidden;
+}
+#close-baseball, #close-soccer, #close-badminton{
+    display:none;
+}
+
+.skills{
+    padding:200px;
+    text-align: center;
+}
+.skill-item{
+    display:flex;
+    justify-content: space-around;
+}
+#gengo{
+    width:200px;
+}
+#c-gengo{
+    width:200px;
+    height:200px;
+}
+
+.products{
+    text-align: center;
+    padding-bottom:150px;
+}
+#shootingscreen{
+    width:450px;
+    height:300px;
+}
+#shootingscreen:hover img{
+    opacity:0.6;
+}
+#blockscreen{
+    width:450px;
+    height:300px;
+}
+.game-product{
+    display:flex;
+    justify-content: space-around;
+    padding:0px 200px;
+}
+
+.yohaku{
+    padding-bottom:50px;
+}
+body{
+    margin:0px 0px 10px 0px;
+}
